@@ -1,0 +1,66 @@
+body,html{
+    background: white;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+
+}
+
+
+@media(min-widht: 375px )   
+
+#principal{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5%;
+    width: 60%;
+    height: 70%;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+#aceptar{
+    width:80%;
+    height: 15%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    margin-top: 20%;
+    
+    background-color: blue;
+    
+    
+}
+
+.texto{
+    font-size: 200%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 50px;
+    
+    
+}
+
+#user{
+    left: 50%;
+    margin-top: 10%;
+    position: relative;
+    
+    
+    transform: translate(-50%,-50% );
+    width: 70%;
+}
+#pass{
+    left: 50%;
+    position: relative;
+    margin-top: 10%;
+    transform: translate(-50%,-50% );
+    width: 70%;
+}
+#titulo{
+    text-align: center;
+    
+}
